@@ -5,7 +5,7 @@
     - [x] ~~Course Introduction & Overview~~
     - [x] ~~What Is Hacking & Why Learn It ?~~
 1. Setting up a Hacking Lab
-    - [x] ~~ Lab Overview & Needed Software~~
+    - [x] ~~Lab Overview & Needed Software~~
     - [ ] Installing Kali 2019 As a Virtual Machine
     - [ ] Creating & Using Snapshots
 1. Linux Basics
