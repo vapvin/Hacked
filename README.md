@@ -18,3 +18,11 @@
 1. Gaining Access - Client Side Attacks
 1. Gaining Access - Client Side Attacks Social Engineering
 1. Gaining Access - Using The Above Attacks Outside The Local Network
+1. Post Exploitation
+1. Website Hacking
+1. Website Hacking - information Gathering
+1. Website Hacking - File Upload, Code Execution & File Inclusion Vulns
+1. Website Hacking - SQL Injection Vulnerabilities
+1. Website Hacking - Cross Site Scripting Vulnerabilities
+1. Website Hacking - Discovering Vlunerabilities Automatically
+1. Bonus Section
