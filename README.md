@@ -120,10 +120,52 @@
     - [ ] Ex2 - Using BeEF Outside The Network
 ---
 1. Post Exploitation
+    - [ ] Introduction to Post Exploitation
+    - [ ] Meterpreter Basics
+    - [ ] File System Commands
+    - [ ] Maintaining Access - Basic Methods
+    - [ ] Maintaining Access - Using a Reliable & Undetectable Method
+    - [ ] Spying - Capturing Key Strikes & Taking Screen Shots
+    - [ ] Pivoting - Theory (What is Pivoting?)
+    - [ ] Pivoting - Using a Hacked System to Hack Into Other Systems
 1. Website Hacking
+    - [ ] Introduction - What Is A Website ?
+    - [ ] How To Hack a Website?
 1. Website Hacking - information Gathering
+    - [ ] Gathering Basic Information Using Whois Lookup
+    - [ ] Discovering Technologies Used On The Website
+    - [ ] Gathering Comprehensive DNS Information
+    - [ ] Discovering Websites On The Same Server
+    - [ ] Discovering Subdomains
+    - [ ] Discovering Sensitive Files
+    - [ ] Analysing Discovered Files
 1. Website Hacking - File Upload, Code Execution & File Inclusion Vulns
+    - [ ] Discovering & Exploiting File Upload Vulnerabilities To Hack Websites
+    - [ ] Discovering & Exploiting Code Execution Vulnerabilities To Hack Websites
+    - [ ] Discovering & Exploiting Local File Inclusion Vulnerabilities
+    - [ ] Remote File Inclusion Vulnerabilities - Configuring PHP Settings
+    - [ ] Remote File Inclusion Vulnerabilities - Discovery & Exploitation
+    - [ ] Preventing The Above Vulnerabilities
 1. Website Hacking - SQL Injection Vulnerabilities
+    - [ ] What is SQL?
+    - [ ] Dangers of SQL Injection Vulnerabilities
+    - [ ] Discovering SQL injections In POST
+    - [ ] Bypassing Logins Using SQL injection
+    - [ ] Discovering SQL injections in GET
+    - [ ] Reading Database Information
+    - [ ] Discovering Database Tables
+    - [ ] Extracting Sensitive Data From The Database (Such As Passwords, User info...etc)
+    - [ ] Reading & Writing Files On The Server Using SQL Injection Vulnerability
+    - [ ] Discovering SQL Injections & Extracting Data Using SQLmap
+    - [ ] The Right Way To Prevent SQL Injection Vulnerabilities
 1. Website Hacking - Cross Site Scripting Vulnerabilities
+    - [ ] Introduction to Cross Site Scripting?
+    - [ ] Discovering Reflected XSS
+    - [ ] Discovering Stored XSS
+    - [ ] Exploiting XSS - Hooking Vulnerable Page Visitors To BeEF
+    - [ ] Preventing XSS Vulnerabilities
 1. Website Hacking - Discovering Vlunerabilities Automatically
+    - [ ] Automatically Scanning Target Website For Vulnerabilities
+    - [ ] Analysing Scan Results
 1. Bonus Section
+    - [ ] Bonus Lecture - What's Next?
