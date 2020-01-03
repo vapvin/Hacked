@@ -38,10 +38,40 @@
     - [ ] Hacking WPA & WPA2 Without a Wordlist
     - [ ] Capturing The Handshake
 1. Network Hacking - Gaining Access - Security
+    - [ ] Creating a Wordlist
+    - [ ] Cracking WPA & WPA2 Using a Wordlist Attack
+    - [ ] Securing Your Network From Hackers
+    - [ ] Configuring Wireless Settings for Maximum Security
 1. Network Hacking - Post Connection Attacks
+    - [ ] Introduction to Post-Connection Attacks
 1. Network Hacking - Post Connection Attacks Information Gathering
+    - [ ] Installing Windows As a Virtual Machine
+    - [ ] Discovering Devices Connected to the Same Network
+    - [ ] Gathering Sensitive Info About Connected Devices (Device Name, Ports....etc)
+    - [ ] Gathering More Sensitive Info (Running Services,Operating System....etc)
 1. Network Hacking - Post Connection Attacks - MITM Attacks
+    - [ ] What is ARP Poisoning ?
+    - [ ] Intercepting Network Traffic
+    - [ ] Bettercap Basics
+    - [ ] ARP Spoofing Using Bettercap
+    - [ ] Spying on Network Devices (Capturing Passwords,Visited Websites...etc)
+    - [ ] Creating Custom Spoofing Script
+    - [ ] Understanding HTTPS & How to Bypass it
+    - [ ] Bypassing HTTPS
+    - [ ] Bypassing HSTS
+    - [ ] DNS Spoofing - Controlling DNS Requests on The Network
+    - [ ] Injecting Javascript Code
+    - [ ] Wireshark - Basic Overview & How To Use It With MITM Attacks
+    - [ ] Wireshark - Sniffing & Analysing Data
+    - [ ] Wireshark - Using Filters, Tracing & Dissecting Packets
+    - [ ] Wireshark - Capturing Passwords & Anything Sent By Any Device In The Network
+    - [ ] Creating a Fake Access Point (Honeypot) - Theory
+    - [ ] Creating a Fake Access Point (Honeypot) - Practical
 1. Network Hacking - Detection &Security
+    - [ ] Detecting ARP Poisoning Attacks
+    - [ ] Detecting suspicious Activities In The Network
+    - [ ] Preventing MITM Attacks - Method 1
+    - [ ] 55. Preventing MITM Attacks - Method 2
 ---
 1. Gaining Access To Computers
 1. Gaining Access - Server Side Attacks
