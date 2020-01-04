@@ -6,11 +6,11 @@
     - [x] ~~What Is Hacking & Why Learn It ?~~
 1. Setting up a Hacking Lab
     - [x] ~~Lab Overview & Needed Software~~
-    - [x] Installing Kali 2019 As a Virtual Machine
-    - [x] Creating & Using Snapshots
+    - [x] ~~Installing Kali 2019 As a Virtual Machine~~
+    - [x] ~~Creating & Using Snapshots~~
 1. Linux Basics
-    - [ ] Basic Overview of Kali Linux
-    - [ ] The Terminal & Linux Commands
+    - [x] Basic Overview of Kali Linux~~
+    - [x] The Terminal & Linux Commands~~
 ---
 1. Network Hacking
     - [ ] Introduction to Network Penetration Testing / Hacking
