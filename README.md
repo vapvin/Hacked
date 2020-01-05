@@ -38,10 +38,10 @@
     - [x] Hacking WPA & WPA2 Without a Wordlist
     - [x] Capturing The Handshake
 1. Network Hacking - Gaining Access - Security
-    - [ ] Creating a Wordlist
-    - [ ] Cracking WPA & WPA2 Using a Wordlist Attack
-    - [ ] Securing Your Network From Hackers
-    - [ ] Configuring Wireless Settings for Maximum Security
+    - [x] Creating a Wordlist
+    - [x] Cracking WPA & WPA2 Using a Wordlist Attack
+    - [x] Securing Your Network From Hackers
+    - [x] Configuring Wireless Settings for Maximum Security
 1. Network Hacking - Post Connection Attacks
     - [ ] Introduction to Post-Connection Attacks
 1. Network Hacking - Post Connection Attacks Information Gathering
