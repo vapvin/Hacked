@@ -13,9 +13,9 @@
     - [x] The Terminal & Linux Commands~~
 ---
 1. Network Hacking
-    - [ ] Introduction to Network Penetration Testing / Hacking
-    - [ ] Networks Basics
-    - [ ] Connecting a Wireless Adapter To Kali
+    - [x] Introduction to Network Penetration Testing / Hacking
+    - [x] Networks Basics
+    - [x] Connecting a Wireless Adapter To Kali
     - [ ] What is MAC Address & How To Change It
     - [ ] Wireless Modes (Managed & Monitor)
 
