@@ -24,19 +24,19 @@
     - [x] WiFi Bands - 2.4Ghz & 5Ghz Frequencies
 
 1. Network Hacking - Gaining Access - WEP Cracking
-    - [ ] Targeted Packet Sniffing
-    - [ ] Deauthentication Attack (Disconnecting Any Device From The Network)
+    - [x] Targeted Packet Sniffing
+    - [x] Deauthentication Attack (Disconnecting Any Device From The Network)
 
 1. Network Hacking - Gaining Access (WEP/WPA/WPA2 Cracking)
-    - [ ] Gaining Access Introduction
-    - [ ] Theory Behind Cracking WEP Encryption
+    - [x] Gaining Access Introduction
+    - [x] Theory Behind Cracking WEP Encryption
 1. Network Hacking - Gaining Access - WPA / WPA2 Cracking
-    - [ ] WEP Cracking Basics
-    - [ ] Fake Authentication Attack
-    - [ ] ARP Request Replay Attack
-    - [ ] Introduction to WPA and WPA2 Cracking
-    - [ ] Hacking WPA & WPA2 Without a Wordlist
-    - [ ] Capturing The Handshake
+    - [x] WEP Cracking Basics
+    - [x] Fake Authentication Attack
+    - [x] ARP Request Replay Attack
+    - [x] Introduction to WPA and WPA2 Cracking
+    - [x] Hacking WPA & WPA2 Without a Wordlist
+    - [x] Capturing The Handshake
 1. Network Hacking - Gaining Access - Security
     - [ ] Creating a Wordlist
     - [ ] Cracking WPA & WPA2 Using a Wordlist Attack
