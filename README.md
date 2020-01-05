@@ -20,8 +20,8 @@
     - [x] Wireless Modes (Managed & Monitor)
 
 1. Network Hacking - PreConnection Attacks
-    - [ ] Packet Sniffing Basics
-    - [ ] WiFi Bands - 2.4Ghz & 5Ghz Frequencies
+    - [x] Packet Sniffing Basics
+    - [x] WiFi Bands - 2.4Ghz & 5Ghz Frequencies
 
 1. Network Hacking - Gaining Access - WEP Cracking
     - [ ] Targeted Packet Sniffing
