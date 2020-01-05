@@ -16,8 +16,8 @@
     - [x] Introduction to Network Penetration Testing / Hacking
     - [x] Networks Basics
     - [x] Connecting a Wireless Adapter To Kali
-    - [ ] What is MAC Address & How To Change It
-    - [ ] Wireless Modes (Managed & Monitor)
+    - [x] What is MAC Address & How To Change It
+    - [x] Wireless Modes (Managed & Monitor)
 
 1. Network Hacking - PreConnection Attacks
     - [ ] Packet Sniffing Basics
