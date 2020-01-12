@@ -58,6 +58,7 @@
    - [x] What is ARP Poisoning ?
    - [x] Intercepting Network Traffic
    - [x] Bettercap Basics
+         <<<<<<< HEAD
    - [ ] ARP Spoofing Using Bettercap
    - [ ] Spying on Network Devices (Capturing Passwords,Visited Websites...etc)
    - [ ] Creating Custom Spoofing Script
@@ -76,7 +77,27 @@
    - [ ] Detecting ARP Poisoning Attacks
    - [ ] Detecting suspicious Activities In The Network
    - [ ] Preventing MITM Attacks - Method 1
-   - [ ] Preventing MITM Attacks - Method 2
+   - [ ] # Preventing MITM Attacks - Method 2
+   - [x] ARP Spoofing Using Bettercap
+   - [x] Spying on Network Devices (Capturing Passwords,Visited Websites...etc)
+   - [x] Creating Custom Spoofing Script
+   - [x] Understanding HTTPS & How to Bypass it
+   - [x] Bypassing HTTPS
+   - [x] Bypassing HSTS
+   - [x] DNS Spoofing - Controlling DNS Requests on The Network
+   - [x] Injecting Javascript Code
+   - [x] Wireshark - Basic Overview & How To Use It With MITM Attacks
+   - [x] Wireshark - Sniffing & Analysing Data
+   - [x] Wireshark - Using Filters, Tracing & Dissecting Packets
+   - [x] Wireshark - Capturing Passwords & Anything Sent By Any Device In The Network
+   - [x] Creating a Fake Access Point (Honeypot) - Theory
+   - [x] Creating a Fake Access Point (Honeypot) - Practical
+1. Network Hacking - Detection &Security
+   - [x] Detecting ARP Poisoning Attacks
+   - [x] Detecting suspicious Activities In The Network
+   - [x] Preventing MITM Attacks - Method 1
+   - [x] Preventing MITM Attacks - Method 2
+     > > > > > > > 0e77c52f5d93b828a70936be65d39a4d2f84c2aa
 
 ---
 
