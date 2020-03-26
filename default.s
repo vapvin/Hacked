@@ -11,6 +11,6 @@ mov <mem>,<const>
 
 ;Examples
 
-mov eax, ebx — copy the value in ebx into eax
-mov byte ptr [var], 5 — store the value 5 into the byte at location var
+mov eax, ebx ;— copy the value in ebx into eax
+mov byte ptr [var], 5 ;— store the value 5 into the byte at location var
 
