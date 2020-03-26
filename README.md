@@ -198,3 +198,10 @@
    - [ ] Analysing Scan Results
 1. Bonus Section
    - [ ] Bonus Lecture - What's Next?
+
+
+--- 
+
+## Organize commands for your own reference in default.s file
+
+### This Repository is for those who want to study hacking for the first time and to study my next assembler (GNU Assembler )
