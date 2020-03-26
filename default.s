@@ -38,3 +38,13 @@ pop <mem>
 pop edi ;— pop the top element of the stack into EDI.
 pop [ebx] ;— pop the top element of the stack into memory at the four bytes starting at location EBX.
 
+;lea — Load effective address
+;The lea instruction places the address specified by its second operand into the register specified by its first operand. Note, the contents of the memory location are not loaded, only the effective address is computed and placed into the register. This is useful for obtaining a pointer into a memory region.
+;Syntax
+lea <reg32>,<mem>
+
+;Examples
+
+lea edi, [ebx+4*esi] ;— the quantity EBX+4*ESI is placed in EDI.
+lea eax, [var] ;— the value in var is placed in EAX.
+lea eax, [val] ;— the value val is placed in EAX.
