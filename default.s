@@ -48,3 +48,117 @@ lea <reg32>,<mem>
 lea edi, [ebx+4*esi] ;— the quantity EBX+4*ESI is placed in EDI.
 lea eax, [var] ;— the value in var is placed in EAX.
 lea eax, [val] ;— the value val is placed in EAX.
+
+;Arithmetic and Logic Instructions
+add ;— Integer Addition
+;The add instruction adds together its two operands, storing the result in its first operand. Note, whereas both operands may be registers, at most one operand may be a memory location.
+;Syntax
+add <reg>,<reg>
+add <reg>,<mem>
+add <mem>,<reg>
+add <reg>,<con>
+add <mem>,<con>
+;Examples
+add eax, 10 ;— EAX ← EAX + 10
+add BYTE PTR [var], 10 ;— add 10 to the single byte stored at memory address var
+;sub — Integer Subtraction
+;The sub instruction stores in the value of its first operand the result of subtracting the value of its second operand from the value of its first operand. As with add
+;Syntax
+sub <reg>,<reg>
+sub <reg>,<mem>
+sub <mem>,<reg>
+sub <reg>,<con>
+sub <mem>,<con>
+;Examples
+sub al, ah ;— AL ← AL - AH
+sub eax, 216 ;— subtract 216 from the value stored in EAX
+;inc, dec — Increment, Decrement
+;The inc instruction increments the contents of its operand by one. The dec instruction decrements the contents of its operand by one.
+;Syntax
+inc <reg>
+inc <mem>
+dec <reg>
+dec <mem>
+
+;Examples
+dec eax ;— subtract one from the contents of EAX.
+inc DWORD PTR [var] ;— add one to the 32-bit integer stored at location var
+
+;imul — Integer Multiplication
+;The imul instruction has two basic formats: two-operand (first two syntax listings above) and three-operand (last two syntax listings above).
+;The two-operand form multiplies its two operands together and stores the result in the first operand. The result (i.e. first) operand must be a register.
+;The three operand form multiplies its second and third operands together and stores the result in its first operand. Again, the result operand must be a register. Furthermore, the third operand is restricted to being a constant value.
+;Syntax
+imul <reg32>,<reg32>
+imul <reg32>,<mem>
+imul <reg32>,<reg32>,<con>
+imul <reg32>,<mem>,<con>
+;Examples
+imul eax, [var] ;— multiply the contents of EAX by the 32-bit contents of the memory location var. Store the result in EAX.
+imul esi, edi, 25 ;— ESI → EDI * 25
+;idiv — Integer Division
+;The idiv instruction divides the contents of the 64 bit integer EDX:EAX (constructed by viewing EDX as the most significant four bytes and EAX as the least significant four bytes) by the specified operand value. The quotient result of the division is stored into EAX, while the remainder is placed in EDX.
+;Syntax
+idiv <reg32>
+idiv <mem>
+
+;Examples
+
+idiv ebx ;— divide the contents of EDX:EAX by the contents of EBX. Place the quotient in EAX and the remainder in EDX.
+idiv DWORD PTR [var] ;— divide the contents of EDX:EAX by the 32-bit value stored at memory location var. Place the quotient in EAX and the remainder in EDX.
+;and, or, xor ;— Bitwise logical and, or and exclusive or
+;These instructions perform the specified logical operation (logical bitwise and, or, and exclusive or, respectively) on their operands, placing the result in the first operand location.
+;Syntax
+and <reg>,<reg>
+and <reg>,<mem>
+and <mem>,<reg>
+and <reg>,<con>
+and <mem>,<con>
+or <reg>,<reg>
+or <reg>,<mem>
+or <mem>,<reg>
+or <reg>,<con>
+or <mem>,<con>
+xor <reg>,<reg>
+xor <reg>,<mem>
+xor <mem>,<reg>
+xor <reg>,<con>
+xor <mem>,<con>
+;Examples
+and eax, 0fH ;— clear all but the last 4 bits of EAX.
+xor edx, edx ;— set the contents of EDX to zero.
+
+not ;— Bitwise Logical Not
+;Logically negates the operand contents (that is, flips all bit values in the operand).
+;Syntax
+not <reg>
+not <mem>
+
+;Example
+not BYTE PTR [var] ;— negate all bits in the byte at the memory location var.
+
+neg ;— Negate
+;Performs the two's complement negation of the operand contents.
+;Syntax
+neg <reg>
+neg <mem>
+
+;Example
+neg eax ;— EAX → - EAX
+
+;shl, shr — Shift Left, Shift Right
+;These instructions shift the bits in their first operand's contents left and right, padding the resulting empty bit positions with zeros. The shifted operand can be shifted up to 31 places. The number of bits to shift is specified by the second operand, which can be either an 8-bit constant or the register CL. In either case, shifts counts of greater then 31 are performed modulo 32.
+;Syntax
+shl <reg>,<con8>
+shl <mem>,<con8>
+shl <reg>,<cl>
+shl <mem>,<cl>
+
+shr <reg>,<con8>
+shr <mem>,<con8>
+shr <reg>,<cl>
+shr <mem>,<cl>
+
+;Examples
+shl eax, 1 ;— Multiply the value of EAX by 2 (if the most significant bit is 0)
+shr ebx, cl ;— Store in EBX the floor of result of dividing the value of EBX by 2n wheren is the value in CL.
