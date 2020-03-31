@@ -12,3 +12,4 @@ target = ""
 upload_destination = ""
 port = 0
 
+# Im pushing 2020 03 29 / why do not commit this??? Fuck Kali Linux Timezone ...
